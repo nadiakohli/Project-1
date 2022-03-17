@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
@@ -14,6 +15,23 @@
         <header>
             <div class="header-logo">
                 <a href="#"><img src="images/logo_2.png" alt="Logo"></a>
+            </div>
+            <div class="burger-menu-button">
+                <button class="burger-button">
+                    <i class="fas fa-solid fa-bars color-for-icons"></i>
+                </button>
+                <div class="burger-menu">
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Extension</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Sing up</a></li>
+                        </ul>
+                    </nav>   
+                </div>
             </div>
             <div class="header-menu">
                 <nav class="main-nav">
@@ -61,27 +79,21 @@
             </div>
             <div class="easy-useful-columns">
                 <div class="easy-useful-column-form">
-                    <div>
-                        <img src="images/easy_form.png" alt="Form">
-                    </div>
+                    <img class="easy-useful-column-image" src="images/easy_form.png" alt="Form">
                     <h2 class="easy-useful-column-header">Title Goes Here</h2>
                     <p class="easy-useful-column-paragraph">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quod hic, alias suscipit nihil nesciunt distinctio debitis inventore veritatis ut! 
                     </p>
                 </div>
                 <div class="easy-useful-column-form">
-                    <div>
-                        <img src="images/easy_football_player.png" alt="Football player">
-                    </div>
+                    <img class="easy-useful-column-image" src="images/easy_football_player.png" alt="Football player">
                     <h2 class="easy-useful-column-header">Title Goes Here</h2>
                     <p class="easy-useful-column-paragraph">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quod hic, alias suscipit nihil nesciunt distinctio debitis inventore veritatis ut! 
                     </p>
                 </div>
                 <div class="easy-useful-column-form">
-                    <div>
-                        <img src="images/easy_fireman.png" alt="Fireman">
-                    </div>
+                    <img class="easy-useful-column-image" src="images/easy_fireman.png" alt="Fireman">
                     <h2 class="easy-useful-column-header">Title Goes Here</h2>
                     <p class="easy-useful-column-paragraph">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quod hic, alias suscipit nihil nesciunt distinctio debitis inventore veritatis ut!
@@ -136,59 +148,95 @@
                 <p class="services-main-text-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quis laborum quasi impedit ipsum!</p>
             </div>
             <div class="services-accordion-list">
-                <div class="services-list line">
-                    <div class="accordion-header">
-                        <img src="images/s_statistics.png" alt="Statistics">
-                        <p class="services-item-list">statistics</p>
+                <div class="wrapper-accordion-list-paragraph">
+                    <div class="services-list line">
+                        <div class="accordion-header">
+                            <img src="images/s_statistics.png" alt="Statistics">
+                            <p class="services-item-list">statistics</p>
+                        </div>
+                        <button class="accordion-button"></button>
                     </div>
-                    <button class="accordion-button">
-                        <img src="images/s_arrow_drop_down.png" alt="Arrow drop down"> 
-                    </button>
+                    <div class="services-list-img-paragraph">
+                        <img class="services-statistic-image" src="images/s_statistics_img.png" alt="Statistics">
+                        <p class="services-statistics-paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit,  officiis ad obcaecati iste! Velit, architecto atque repellat tempore quia autem aliquid fugiat debitis?
+                            <br>
+                            <br>
+                            ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate commodi odit officia quis deserunt sunt nam blanditiis ullam quas. 
+                        </p>
+                    </div>  
                 </div>
-                <div class="services-list">
-                    <img src="images/s_statistics_img.png" alt="Statistics">
-                    <p class="services-statistics-paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit,  officiis ad obcaecati iste! Velit, architecto atque repellat tempore quia autem aliquid fugiat debitis?
-                        <br>
-                        <br>
-                        ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate commodi odit officia quis deserunt sunt nam blanditiis ullam quas. 
-                    </p>
-                </div>  
-                <div class="services-list line">
-                    <div class="accordion-header">
-                        <img src="images/s_mail_inbox.png" alt="Mail inbox">
-                        <p class="services-item-list">inbox</p>
+                <div class="wrapper-accordion-list-paragraph">
+                    <div class="services-list line">
+                        <div class="accordion-header">
+                            <img src="images/s_mail_inbox.png" alt="Mail inbox">
+                            <p class="services-item-list">inbox</p>
+                        </div>
+                        <button class="accordion-button"></button>
                     </div>
-                    <button class="accordion-button">
-                        <img src="images/s_arrow_drop_down.png" alt="Arrow drop down"> 
-                    </button>
+                    <div class="services-list-img-paragraph">
+                        <img class="services-statistic-image" src="images/s_statistics_img.png" alt="Statistics">
+                        <p class="services-statistics-paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit,  officiis ad obcaecati iste! Velit, architecto atque repellat tempore quia autem aliquid fugiat debitis?
+                            <br>
+                            <br>
+                            ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate commodi odit officia quis deserunt sunt nam blanditiis ullam quas. 
+                        </p>
+                    </div> 
                 </div>
-                <div class="services-list line">
-                    <div class="accordion-header">
-                        <img src="images/s_group_team.png" alt="Group team">
-                        <p class="services-item-list">team</p>
+                <div class="wrapper-accordion-list-paragraph">
+                    <div class="services-list line">
+                        <div class="accordion-header">
+                            <img src="images/s_group_team.png" alt="Group team">
+                            <p class="services-item-list">team</p>
+                        </div>
+                        <button class="accordion-button"></button>
                     </div>
-                    <button class="accordion-button">
-                        <img src="images/s_arrow_drop_down.png" alt="Arrow drop down"> 
-                    </button>
+                    <div class="services-list-img-paragraph">
+                        <img class="services-statistic-image" src="images/s_statistics_img.png" alt="Statistics">
+                        <p class="services-statistics-paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit,  officiis ad obcaecati iste! Velit, architecto atque repellat tempore quia autem aliquid fugiat debitis?
+                            <br>
+                            <br>
+                            ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate commodi odit officia quis deserunt sunt nam blanditiis ullam quas. 
+                        </p>
+                    </div> 
                 </div>
-                <div class="services-list line">
-                    <div class="accordion-header">
-                        <img src="images/s_settings.png" alt="Settings">
-                        <p class="services-item-list">settings</p>
+                <div class="wrapper-accordion-list-paragraph">
+                    <div class="services-list line">
+                        <div class="accordion-header">
+                            <img src="images/s_settings.png" alt="Settings">
+                            <p class="services-item-list">settings</p>
+                        </div>
+                        <button class="accordion-button"></button>
                     </div>
-                    <button class="accordion-button">
-                        <img src="images/s_arrow_drop_down.png" alt="Arrow drop down"> 
-                    </button>
+                    <div class="services-list-img-paragraph">
+                        <img class="services-statistic-image" src="images/s_statistics_img.png" alt="Statistics">
+                        <p class="services-statistics-paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit,  officiis ad obcaecati iste! Velit, architecto atque repellat tempore quia autem aliquid fugiat debitis?
+                            <br>
+                            <br>
+                            ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate commodi odit officia quis deserunt sunt nam blanditiis ullam quas. 
+                        </p>
+                    </div> 
                 </div>
-                <div class="services-list line">
-                    <div class="accordion-header">
-                        <img src="images/s_wifi_feed.png" alt="Wifi feed">
-                        <p class="services-item-list">feed</p>
+                <div class="wrapper-accordion-list-paragraph">
+                    <div class="services-list line">
+                        <div class="accordion-header">
+                            <img src="images/s_wifi_feed.png" alt="Wifi feed">
+                            <p class="services-item-list">feed</p>
+                        </div>
+                        <button class="accordion-button"></button>
                     </div>
-                    <button class="accordion-button">
-                        <img src="images/s_arrow_drop_down.png" alt="Arrow drop down"> 
-                    </button>
+                    <div class="services-list-img-paragraph">
+                        <img class="services-statistic-image" src="images/s_statistics_img.png" alt="Statistics">
+                        <p class="services-statistics-paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit,  officiis ad obcaecati iste! Velit, architecto atque repellat tempore quia autem aliquid fugiat debitis?
+                            <br>
+                            <br>
+                            ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate commodi odit officia quis deserunt sunt nam blanditiis ullam quas. 
+                        </p>
+                    </div> 
                 </div>
             </div>
         </div>
@@ -205,36 +253,63 @@
                     </div>
                 </div>
                 <div class="testimonials-opinion">
-                    <!-- <div class="testimonials-opinion-arrow">
-                        <img src="images/t_keyboard_arrow_up.png" alt="Keyboard arrow up">
-                    </div> -->
-                    <div class="testimonials-customer-opinion">
-                        <img class="testimonials-person" src="images/t_john.png" alt="John">
-                        <div class="wrapper-arrow-text">
-                            <div class="testimonials-opinion-arrow">
-                                <img src="images/t_keyboard_arrow_up.png" alt="Keyboard arrow up">
-                            </div> 
-                            <div class="testimonials-customer-opinion-rectangle">
-                                <h2 class="testimonials-customer-opinion-header">John Doe</h2>
-                                <p class="testimonials-customer-opinion-paragraph">
-                                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate libero dolor qui temporibus delectus! Eaque officiis eligendi, nam quaerat explicabo voluptatibus! Eaque officiis eligendi, nam quaerat explicabo voluptatibus voluptatibus!</i>
-                                </p>
-                            </div>  
-                        </div>
+                    <div class="testimonials-opinion-arrow">
+                        <i class="fas fa-solid fa-arrow-up color-for-icons" id="nextBtn"></i>
+                    </div> 
+                    <div class="container-customer-opinion">
+                        <div class="test">
+                            <div class="test-block">
+                                <div class="testimonials-customer-opinion" id="lastClone">
+                                    <img class="testimonials-person" src="images/t_khalesi.png" alt="Khalesi">
+                                    <div class="warapper-arrow-text">
+                                        <div class="testimonials-customer-opinion-rectangle">
+                                            <h2 class="testimonials-customer-opinion-header">Khalessi</h2>
+                                            <p class="testimonials-customer-opinion-paragraph">
+                                                <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate libero dolor qui temporibus delectus! Eaque officiis eligendi, nam quaerat explicabo voluptatibus! Eaque officiis eligendi, nam quaerat explicabo voluptatibus voluptatibus!</i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials-customer-opinion">
+                                    <img class="testimonials-person" src="images/t_john.png" alt="John">
+                                    <div class="wrapper-arrow-text">
+                                        <div class="testimonials-customer-opinion-rectangle">
+                                            <h2 class="testimonials-customer-opinion-header">John Doe</h2>
+                                            <p class="testimonials-customer-opinion-paragraph">
+                                                <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate libero dolor qui temporibus delectus! Eaque officiis eligendi, nam quaerat explicabo voluptatibus! Eaque officiis eligendi, nam quaerat explicabo voluptatibus voluptatibus!</i>
+                                            </p>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="test-block">
+                                <div class="testimonials-customer-opinion">
+                                    <img class="testimonials-person" src="images/t_khalesi.png" alt="Khalesi">
+                                    <div class="warapper-arrow-text">
+                                        <div class="testimonials-customer-opinion-rectangle">
+                                            <h2 class="testimonials-customer-opinion-header">Khalessi</h2>
+                                            <p class="testimonials-customer-opinion-paragraph">
+                                                <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate libero dolor qui temporibus delectus! Eaque officiis eligendi, nam quaerat explicabo voluptatibus! Eaque officiis eligendi, nam quaerat explicabo voluptatibus voluptatibus!</i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials-customer-opinion" id="firstClone">
+                                    <img class="testimonials-person" src="images/t_john.png" alt="John">
+                                    <div class="wrapper-arrow-text">
+                                        <div class="testimonials-customer-opinion-rectangle">
+                                            <h2 class="testimonials-customer-opinion-header">John Doe</h2>
+                                            <p class="testimonials-customer-opinion-paragraph">
+                                                <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate libero dolor qui temporibus delectus! Eaque officiis eligendi, nam quaerat explicabo voluptatibus! Eaque officiis eligendi, nam quaerat explicabo voluptatibus voluptatibus!</i>
+                                            </p>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
                     </div>
-                    <div class="testimonials-customer-opinion">
-                        <img class="testimonials-person" src="images/t_khalesi.png" alt="Khalesi">
-                        <div class="warapper-arrow-text">
-                            <div class="testimonials-customer-opinion-rectangle">
-                                <h2 class="testimonials-customer-opinion-header">Khalessi</h2>
-                                <p class="testimonials-customer-opinion-paragraph">
-                                    <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate libero dolor qui temporibus delectus! Eaque officiis eligendi, nam quaerat explicabo voluptatibus! Eaque officiis eligendi, nam quaerat explicabo voluptatibus voluptatibus!</i>
-                                </p>
-                            </div>
-                            <div class="testimonials-opinion-arrow">
-                                <img src="images/t_keyboard_arrow_down.png" alt="Keyboard arrow down">
-                            </div>
-                        </div>
+                    <div class="testimonials-opinion-arrow">
+                        <i class="fas fa-solid fa-arrow-down color-for-icons" id="prevBtn"></i>
                     </div>
                 </div>
             </div>
@@ -247,9 +322,9 @@
                 <p class="our-team-main-text-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit voluptates quod eum beatae nisi quae ipsum repellendus eaque qui deleniti cumque amet.</p>
             </div>
             <div class="our-team-images">
-                <img src="images/team_photo_3.png" alt="Photo 3">
-                <img src="images/team_photo_1.png" alt="Photo 1">
-                <img src="images/team_photo_2.png" alt="Photo 2">
+                <img class="our-team-back-photo" src="images/team_photo_3.png" alt="Photo 3">
+                <img class="our-team-front-photo" src="images/team_photo_1.png" alt="Photo 1">
+                <img class="our-team-back-photo" src="images/team_photo_2.png" alt="Photo 2">
             </div> 
             <div class="our-team-another-text">
                 <h2 class="our-team-another-text-header">Sophie Turner</h2>
@@ -267,27 +342,27 @@
     <!-- ----------contact-us---------- -->
     <div class="container">
         <div class="contact-us-main-text">
-            <div class="contact-us-block1">
+            <div class="contact-us-header-paragraph">
                 <h2 class="contact-us-main-text-header">Contact Us</h2>
                 <p class="contact-us-main-text-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit voluptates quod eum beatae nisi quae ipsum repellendus eaque qui deleniti cumque amet.</p>
             </div>
         </div>
-        <div class="contact-us-input-field">
-            <div class="contact-us-block2">
+        <div class="contact-us-contacts-form">
+            <div class="contact-us-contact-form">
                 <form action="">
-                    <div class="contact-us-block2-input-field">
+                    <div class="contact-us-input-field">
                         <input type="text" class="first-name" placeholder="First Name">
                         <input type="text" class="last-name" placeholder="Last Name">
                     </div>
-                    <div class="contact-us-block2-input-field">
+                    <div class="contact-us-input-field">
                         <input type="email" class="email" placeholder="Email" required>
                         <input type="text" class="phone" placeholder="Phone">
                     </div>
-                    <div class="contact-us-block2-input-field">
+                    <div class="contact-us-input-field">
                         <input type="message" class="message" placeholder="Message">
                     </div>
                 </form>
-                <div class="contact-us-block3">
+                <div class="contact-us-checkbox-button">
                     <div class="ch1">
                         <div class="contact-us-checkbox-wrapper">
                             <input id="square" type="checkbox" tabindex="1"/>
@@ -323,7 +398,7 @@
                     <ul class="footer-nav">
                         <li class="footer-nav-privecy-policy" class="active"><a href="#">Privecy Policy</a></li>
                         <li><a href="#">About us</a></li>
-                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
                     </div>
                 <div class="footer-social-ico">
                     <img src="images/footer_facebook_1.png" alt="Ico facebook">
@@ -335,5 +410,7 @@
             </div>
         </footer>
     </div>
+    <!-- scripts -->
+    <script src="js/index.js"></script>
 </body>
 </html>
